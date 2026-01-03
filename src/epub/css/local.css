@@ -63,10 +63,6 @@ figcaption{
 	text-align: center;
 }
 
-figcaption p + p{
-	text-indent: 0;
-}
-
 figure.full-page{
 	break-after: page;
 	break-before: page;
@@ -85,6 +81,7 @@ ul{
 #dedication ul{
 	margin: 0; /* Remove margins */
 	padding: 0; /* Remove padding */
+	text-align: initial;
 }
 
 #chapter-9 ul{
@@ -110,10 +107,6 @@ ul{
 
 #dedication > p:nth-of-type(4){
 	margin-bottom: 2em;
-}
-
-#dedication ul{
-	text-align: initial;
 }
 /* end dedication custom styling */
 
