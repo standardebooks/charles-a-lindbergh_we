@@ -71,7 +71,7 @@
 		<meta property="se:url.authority.nacoaf" refines="#contributor-2">http://id.loc.gov/authorities/names/n88274747</meta>
 		<meta property="role" refines="#contributor-2" scheme="marc:relators">ctb</meta>
 		<meta property="display-seq" refines="#contributor-2">0</meta>
-		<dc:contributor id="contributor-3">G. P. Putnam's Sons</dc:contributor>
+		<dc:contributor id="contributor-3">G. P. Putnam’s Sons</dc:contributor>
 		<meta property="role" refines="#contributor-3" scheme="marc:relators">wfw</meta>
 		<meta property="display-seq" refines="#contributor-3">0</meta>
 		<dc:contributor id="contributor-4">Anonymous</dc:contributor>
