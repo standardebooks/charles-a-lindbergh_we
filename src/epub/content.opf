@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/charles-a-lindbergh/we</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-01-17T20:15:48Z</dc:date>
+		<meta property="dcterms:modified">2026-01-17T20:15:48Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -41,17 +41,16 @@
 		<meta property="term" refines="#subject-3">sh2008117571</meta>
 		<meta property="se:subject">Autobiography</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">Charles Lindbergh gives an account of his early life, how he got into flying, and leads up to his famous transatlantic flight.</dc:description>
+		<dc:description id="description">Legendary aviator Charles Lindbergh gives an account of his early life, how he got into flying, and his famous transatlantic flight.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/charles-lindbergh"&gt;Charles Lindbergh&lt;/a&gt; recounts his early life, his education, and his interest in science and mechanics. As a boy, after seeing his first airplane, he was fascinated with flying but would not get near an airplane for several years. He went to college to study engineering, then left school for Nebraska to enroll in flight lessons. As he was learning to fly, he joined others in barnstorming. Fliers would go across the country, land in a field, and offer rides to those who wanted the experience of flight. As an assistant, and still unable to go solo, he did stunts like wing-walking and parachute jumps. He finally bought his own plane from wartime surplus. These planes were slow training machines with limited power. Lindbergh joined the Army Air Service to get access to faster planes. Passing military flight school, he then joined the air mail service by working for a company that bid on mail routes. These experiences led up to getting financial backing to build the &lt;i&gt;Spirit of St. Louis&lt;/i&gt;, to try for the Orteig prize, which was a sum of money for the first one to make a nonstop flight from New York to Paris.&lt;/p&gt;
-			&lt;p&gt;Reluctant to write about the incredible reception he received after the flight, Lindbergh chose the writer Fitzhugh Green to add several chapters on the incredible reception he received after the flight. The crowds in Europe and in the States were overjoyed at his accomplishment. But beyond this, Lindbergh’s modesty, grace, and youth, and his lack of self-seeking motives, endeared him even more. He was heralded as an ambassador of goodwill between U.S. and Europe. It is clear that Lindbergh did not feel comfortable writing such praise about himself. He remained interested in promoting commercial aviation and foresaw a time when cities would be connected by regular air service. In reference to his famous flight, he always used “we” to refer to all who were involved in building the &lt;i&gt;Spirit of St. Louis&lt;/i&gt; and enabling his endeavor, and refused to take sole credit. It was said that he captured the real spirit of America.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/charles-a-lindbergh"&gt;Charles Lindbergh&lt;/a&gt;, the aviator legendary for his nonstop, one-man flight from New York to Paris in 1927, recounts his life in this autobiography. He tells of his early life, his education, and his interest in science and mechanics. He became fascinated with flying after seeing his first airplane, but wouldn’t get near one for several years. He went to college to study engineering, then left school for Nebraska to enroll in flight lessons. He moved on to doing stunts at barnstormers, until he was finally able to buy his own plane from wartime surplus. He goes on to tell of his aviation career up he got financial backing to build his famous airplane, &lt;i&gt;Spirit of St. Louis&lt;/i&gt;, to try for the Orteig prize for the first person to make a nonstop flight from New York to Paris.&lt;/p&gt;
+			&lt;p&gt;Reluctant to write about the incredible worldwide reception he received after the flight, Lindbergh chose the writer Fitzhugh Green to add several chapters to his autobiography on the phenomenal reaction to his achievement: not only where the crowds in Europe and the States overjoyed at his accomplishment, but his modesty, grace, youth, and lack of self-seeking motives made him all the more endearing. He continued to promote commercial aviation and foresaw a time when cities would be connected by regular air service. In reference to his famous flight, he always used “we” to refer to all who were involved in building the &lt;i&gt;Spirit of St. Louis&lt;/i&gt; and enabling his endeavor, and refused to take sole credit.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/73142</dc:source>
 		<dc:source>https://archive.org/details/bwb_Y0-CGU-336</dc:source>
-		<meta property="se:production-notes">The quotes in the title prevented a clean import from PG, so HTML was copied manually for initial commit. Some closing tags were missing and were added manually to produce acceptable code.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">51836</meta>
+		<meta property="se:reading-ease.flesch">66.27</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/We</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-a-lindbergh_we</meta>
 		<dc:creator id="author">Charles A. Lindbergh</dc:creator>
@@ -71,10 +70,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#contributor-2">https://en.wikipedia.org/wiki/Fitzhugh_Green_Sr.</meta>
 		<meta property="se:url.authority.nacoaf" refines="#contributor-2">http://id.loc.gov/authorities/names/n88274747</meta>
 		<meta property="role" refines="#contributor-2" scheme="marc:relators">ctb</meta>
-		<meta property="display-seq" refines="#contributor-2">0</meta>
 		<dc:contributor id="contributor-3">G. P. Putnam’s Sons</dc:contributor>
 		<meta property="role" refines="#contributor-3" scheme="marc:relators">wfw</meta>
-		<meta property="display-seq" refines="#contributor-3">0</meta>
 		<dc:contributor id="contributor-4">Anonymous</dc:contributor>
 		<meta property="role" refines="#contributor-4" scheme="marc:relators">ill</meta>
 		<meta property="display-seq" refines="#contributor-4">0</meta>
@@ -102,6 +99,9 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Lukas Bystricky</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Bystricky, Lukas</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
