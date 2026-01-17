@@ -114,6 +114,9 @@ ul{
 #chapter-3 header,
 #chapter-10 header{
 	font-variant: small-caps;
+}
+
+#chapter-10-1{
 	margin-top: 3em;
 }
 /* end special headers */
