@@ -92,21 +92,21 @@ ul{
 /* dedication custom styling */
 #dedication p{
 	font-variant: small-caps;
-	text-indent: 0;
 }
 
 #dedication i,
-#dedication p:nth-of-type(2){
+#dedication b{
+	display: inline-block;
 	font-size: larger;
 }
 
-#dedication > p:nth-of-type(2),
-#dedication > p:nth-of-type(3){
+#dedication b{
 	margin-bottom: 1em;
 }
 
-#dedication > p:nth-of-type(4){
+#dedication i{
 	margin-bottom: 2em;
+	margin-top: 1em;
 }
 /* end dedication custom styling */
 
