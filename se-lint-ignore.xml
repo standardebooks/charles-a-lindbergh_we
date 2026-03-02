@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-4.xhtml">
-		<ignore>
-			<code>t-032</code>
+		<ignore code="t-032">
 			<reason>Abbreviation for rpm is not an initialism and does not take a period.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-9.xhtml">
-		<ignore>
-			<code>t-037</code>
+		<ignore code="t-037">
 			<reason>The quotation mark is used as a ditto mark.</reason>
 		</ignore>
-		<ignore>
-			<code>y-019</code>
+		<ignore code="y-019">
 			<reason>Space is desired before quotation mark which is a ditto mark.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-10.xhtml">
-		<ignore>
-			<code>t-032</code>
+		<ignore code="t-032">
 			<reason>Abbreviation for rpm is not an initialism and does not take a period.</reason>
 		</ignore>
 	</file>
 	<file path="foreword-1.xhtml">
-		<ignore>
-			<code>s-036</code>
+		<ignore code="s-036">
 			<reason>This foreword (publisher's note) introduces the appendix part in bodymatter.</reason>
 		</ignore>
 	</file>
 	<file path="preface.xhtml">
-		<ignore>
-			<code>s-036</code>
+		<ignore code="s-036">
 			<reason>This preface (author's note) introduces the appendix part in bodymatter.</reason>
 		</ignore>
 	</file>
