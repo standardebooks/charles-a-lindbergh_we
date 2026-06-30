@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/charles-a-lindbergh/we</dc:identifier>
 		<dc:date>2026-01-17T20:15:48Z</dc:date>
 		<meta property="dcterms:modified">2026-01-17T20:15:48Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -39,8 +40,8 @@
 		<meta property="term" refines="#subject-2">sh85136873</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008117571</meta>
-		<meta property="se:subject">Autobiography</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Autobiography</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<dc:description id="description">Legendary aviator Charles Lindbergh gives an account of his early life, how he got into flying, and his famous transatlantic flight.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/charles-a-lindbergh"&gt;Charles Lindbergh&lt;/a&gt;, the aviator legendary for his nonstop, one-man flight from New York to Paris in 1927, recounts his life in this autobiography. He tells of his early life, his education, and his interest in science and mechanics. He became fascinated with flying after seeing his first airplane, but wouldn’t get near one for several years. He went to college to study engineering, then left school for Nebraska to enroll in flight lessons. He moved on to doing stunts at barnstormers, until he was finally able to buy his own plane from wartime surplus. He goes on to tell of his aviation career up to the point where he got financial backing to build his famous airplane, &lt;i&gt;Spirit of St. Louis&lt;/i&gt;, to try for the Orteig prize for the first person to make a nonstop flight from New York to Paris.&lt;/p&gt;
@@ -49,27 +50,29 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/73142</dc:source>
 		<dc:source>https://archive.org/details/bwb_Y0-CGU-336</dc:source>
-		<meta property="se:word-count">51836</meta>
-		<meta property="se:reading-ease.flesch">66.27</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/%22WE%22_(1927_book)</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-a-lindbergh_we</meta>
+		<meta property="schema:wordCount">51836</meta>
+		<meta property="schema:educationalLevel">66.27</meta>
+		<link href="https://en.wikipedia.org/wiki/%22WE%22_(1927_book)" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/charles-a-lindbergh_we" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Charles A. Lindbergh</dc:creator>
 		<meta property="file-as" refines="#author">Lindbergh, Charles A.</meta>
-		<meta property="se:name.person.full-name" refines="#author">Charles Augustus Lindbergh</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Charles_Lindbergh</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79100565</meta>
+		<meta property="schema:alternateName" refines="#author">Charles Augustus Lindbergh</meta>
+		<link href="https://en.wikipedia.org/wiki/Charles_Lindbergh" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79100565.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="contributor-1">Myron T. Herrick</dc:contributor>
 		<meta property="file-as" refines="#contributor-1">Herrick, Myron T.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#contributor-1">https://en.wikipedia.org/wiki/Myron_T._Herrick</meta>
+		<link href="https://en.wikipedia.org/wiki/Myron_T._Herrick" refines="#contributor-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#contributor-1" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="contributor-2">Fitzhugh Green</dc:contributor>
 		<meta property="file-as" refines="#contributor-2">Green, Fitzhugh</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#contributor-2">https://en.wikipedia.org/wiki/Fitzhugh_Green_Sr.</meta>
-		<meta property="se:url.authority.nacoaf" refines="#contributor-2">http://id.loc.gov/authorities/names/n88274747</meta>
+		<link href="https://en.wikipedia.org/wiki/Fitzhugh_Green_Sr." refines="#contributor-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n88274747.html" refines="#contributor-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#contributor-2" scheme="marc:relators">ctb</meta>
 		<dc:contributor id="contributor-3">G. P. Putnam’s Sons</dc:contributor>
 		<meta property="role" refines="#contributor-3" scheme="marc:relators">wfw</meta>
@@ -86,11 +89,11 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Jason Livermore</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Livermore, Jason</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://jasonlivermore.wordpress.com/ebooks/</meta>
+		<link href="https://jasonlivermore.wordpress.com/ebooks/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
