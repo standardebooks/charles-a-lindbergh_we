@@ -75,6 +75,7 @@
 		<link href="https://id.loc.gov/authorities/names/n88274747.html" refines="#contributor-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#contributor-2" scheme="marc:relators">ctb</meta>
 		<dc:contributor id="contributor-3">G. P. Putnam’s Sons</dc:contributor>
+		<link href="https://en.wikipedia.org/wiki/G._P._Putnam's_Sons" refines="#contributor-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#contributor-3" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="contributor-4">Anonymous</dc:contributor>
 		<meta property="role" refines="#contributor-4" scheme="marc:relators">ill</meta>
